@@ -1,0 +1,4 @@
+
+> lib-b@1.0.0 build /Users/kota999/work/gitlab.com/kota999/practice-monorepo-pnpm-turborepo/packages/lib-b
+> tsc ./src/index.ts --outDir ./dist --declaration
+

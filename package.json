@@ -1,0 +1,25 @@
+{
+  "name": "practice-monorepo-pnpm-turborepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib-a": "pnpm -F \"lib-a\"",
+    "lib-b": "pnpm -F \"lib-b\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=8.9.0"
+  },
+  "dependencies": {
+    "turbo": "^1.10.16"
+  }
+}
